@@ -1,13 +1,9 @@
 {
-    "manifest_version" : 2,
-    "name" : "Whatsapp Scrapper",
-    "version" : "1.0",
-    "description" : "Get Whatsapp Group Member Numbers",
-    "browser_action" : {
-        "default_popup" : "index.html"
-    },
-    "permissions": [
-    "activeTab"
-  ],
-    "content_security_policy": "script-src 'self' 'unsafe-eval'; object-src 'self'"
+  "manifest_version": 2,
+  "name": "WhatsApp Group Scraper",
+  "version": "1.0",
+  "permissions": ["tabs"],
+  "browser_action": {
+    "default_popup": "index.html"
+  }
 }
